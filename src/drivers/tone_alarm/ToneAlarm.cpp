@@ -158,7 +158,7 @@ void ToneAlarm::Run()
 						break;
 
 					case tune_control_s::TUNE_ID_HOME_SET:
-						PX4_INFO("home set");
+						PX4_INFO("home set0627");
 						break;
 					}
 

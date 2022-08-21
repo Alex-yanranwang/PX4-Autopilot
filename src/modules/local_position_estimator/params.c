@@ -359,7 +359,7 @@ PARAM_DEFINE_INT32(LPE_FAKE_ORIGIN, 0);
  * @max 90
  * @decimal 8
  */
-PARAM_DEFINE_FLOAT(LPE_LAT, 47.397742f);
+PARAM_DEFINE_FLOAT(LPE_LAT, 47.557742f);
 
 /**
  * Local origin longitude for nav w/o GPS

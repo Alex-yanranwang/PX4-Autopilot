@@ -901,10 +901,11 @@ void Simulator::run()
 
 		// wait for new mavlink messages to arrive
 		int pret = ::poll(&fds[0], fd_count, 1000);
+		//PX4_INFO("poll timeout_pre %d, %d, %d", pret, errno, fd_count);
 
 		if (pret == 0) {
 			// Timed out.
-			PX4_ERR("poll timeout %d, %d", pret, errno);
+			PX4_ERR("poll timeout_1111 %d, %d, %d", pret, errno, fd_count);
 			continue;
 		}
 
